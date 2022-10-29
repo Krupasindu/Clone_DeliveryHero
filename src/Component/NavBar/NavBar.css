@@ -1,0 +1,254 @@
+.navbar {
+  background-color: rgba(245, 245, 246, 1);
+  display: flex;
+  min-height: 67.6px;
+  align-items: stretch;
+  width: 100%;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1; */
+}
+.scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.divdeliverylogo {
+  display: flex;
+  padding-left: 80px;
+  align-items: center;
+  margin-top: 2px;
+}
+.divdeliverylogo img {
+  width: 180px;
+  height: 33px;
+  cursor: pointer;
+}
+.divlink {
+  display: flex;
+  flex-grow: 5;
+  align-content: center;
+  padding-right: 80px;
+  justify-content: flex-end;
+}
+
+.divlink ul {
+  display: flex;
+  list-style-type: none;
+  align-items: flex-start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  min-height: 4rem;
+  /* justify-content: space-around; */
+}
+.divlink ul li {
+  box-sizing: border-box;
+  margin-left: 1.5rem;
+  border-top-width: 2px;
+  border-color: transparent;
+  line-height: 4rem;
+  border-top: 2px solid rgba(245, 245, 246, 1);
+}
+.menuitem {
+  color: #343b46;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  height: fit-content;
+}
+.menuitem_arrow {
+  color: #343b46;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  height: fit-content;
+}
+
+.divlink ul li:hover {
+  border-top: 2px solid #cf2e2e;
+}
+.divlink ul li a:hover {
+  color: #cf2e2e;
+}
+
+.divlink ul li a.active {
+  color: #cf2e2e;
+}
+
+.btnHamburgur {
+  position: absolute;
+  top: 0.7rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35px;
+  height: 14px;
+  top: 30px;
+  border: 0px;
+  background-color: transparent;
+}
+.btnHamburgur .bar {
+  margin-top: 1px;
+  height: 1.5px;
+  width: 100%;
+  background-color: rgba(52, 59, 70, 1);
+  margin-bottom: 2px;
+}
+.btnHamburgur2 {
+  position: absolute;
+  top: 0.7rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35px;
+  height: 14px;
+  top: 30px;
+  border: 0px;
+  background-color: transparent;
+}
+.btnHamburgur2 .bar1 {
+  margin-top: 1px;
+  height: 1.5px;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 2px;
+
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x))
+    translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
+    skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
+    scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+  --transform-rotate: 45deg;
+}
+.btnHamburgur2 .bar2 {
+  position: absolute;
+  margin-top: 1px;
+  height: 1.5px;
+  width: 23.5px;
+  background-color: #fff;
+  margin-bottom: 2px;
+  bottom: 8.2px;
+  right: 5px;
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x))
+    translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
+    skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
+    scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+  --transform-rotate: -45deg;
+}
+
+.navbar2 {
+  background-color: #cf2e2e;
+  display: flex;
+  flex-direction: column;
+  min-height: 67.6px;
+  align-items: stretch;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.divdeliverylogo2 {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  align-items: center;
+  margin-top: 2px;
+  background-color: #cf2e2e;
+}
+.divdeliverylogo2 img {
+  width: 34px;
+  height: 25px;
+  cursor: pointer;
+}
+.divlink2 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  background-color: #cf2e2e;
+}
+
+.divlink2 ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: flex-start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+.divlink2 ul li {
+  box-sizing: border-box;
+  border-top-width: 2px;
+  border-color: transparent;
+  line-height: 2rem;
+  /* border-top: 2px solid rgba(245,245,246,1); */
+}
+.menuitem2 {
+  color: #fff;
+  font-weight: 800;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  height: fit-content;
+}
+.menuitem_arrow2 {
+  color: #fff;
+  font-weight: 800;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  height: fit-content;
+}
+
+@media (max-width: 1166px) {
+  .divdeliverylogo {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+  }
+  .divlink {
+    display: flex;
+    flex-grow: 5;
+    align-content: center;
+    padding-right: 20px;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 1060px) {
+  .divlink {
+    display: none;
+  }
+  .btnHamburgur {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .btnHamburgur2 {
+    display: flex;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,31 @@
+.mainviddiv {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  flex-direction: column;
+}
+.mainviddiv video {
+  height: 80vh;
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+  object-fit: cover;
+}
+
+.content {
+  /* position: relative; */
+  color: white;
+}
+
+.mainviddiv p {
+  font-size: 5vw;
+  font-weight: bold;
+  margin-left: 80px;
+  line-height: 5vw;
+  position: absolute;
+  top: 280px;
+}

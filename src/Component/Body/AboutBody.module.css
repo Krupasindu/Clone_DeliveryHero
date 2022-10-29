@@ -1,0 +1,11 @@
+.maindivaboutpage {
+  position: relative;
+  display: flex;
+  flex: row;
+}
+.divfisrt {
+  display: flex;
+  height: 110vh;
+  width: 100vw;
+  background-image: url(https://www.deliveryhero.com/wp-content/uploads/2021/04/delivery-hero-office-1.jpeg);
+}

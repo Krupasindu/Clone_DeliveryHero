@@ -1,0 +1,143 @@
+.divOtherSection {
+  position: relative;
+}
+
+.divtellus {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  height: 60vh;
+  background-color: #f0f0f0;
+  padding-top: 5%;
+  padding-bottom: 7%;
+  justify-items: center;
+  align-items: center;
+}
+.divtellus img {
+  height: 65vh;
+  width: 55vw;
+  justify-self: center;
+  align-self: center;
+}
+.divaboutus {
+  background-image: url("https://www.deliveryhero.com/wp-content/uploads/2021/03/Corporate-Website_Rider_2_web2-1.jpg");
+  height: 100vh;
+  position: relative;
+  /* background-size: 100%; */
+}
+.divaboutcard {
+  background-color: white;
+  position: absolute;
+  width: 40vw;
+  height: 30vh;
+  min-height: 290px;
+  min-width: 640px;
+  right: 10vw;
+  bottom: 10vh;
+}
+.divaboutcard button {
+  height: 100px;
+  margin-left: 10%;
+  min-width: 150px;
+  margin-top: 10px;
+  border: none;
+  /* border-color: rgb(207, 46, 58); */
+  max-height: 48px;
+  border-radius: 40px;
+  background-color: rgb(207, 46, 58);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: none;
+  cursor: pointer;
+}
+.divaboutcard h3 {
+  padding-left: 10%;
+  font-size: 35px;
+  padding-right: 10%;
+  color: #343b46;
+}
+.divwork {
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.divworkleft {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  justify-content: center;
+}
+.divworkright {
+  padding-top: 7%;
+  position: relative;
+}
+
+.divworkright img {
+  width: 650px;
+  height: 350px;
+  /* align-self: start; */
+}
+.divworkleft h3 {
+  font-size: 33px;
+  width: 70%;
+  margin-left: 10%;
+  color: #343b46;
+}
+.divworkleft a {
+  background-color: white;
+  border: none;
+  color: rgb(207, 46, 58);
+  margin-left: 10%;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  padding-bottom: 5px;
+  width: 150px;
+}
+
+.divworkleft a:hover {
+  opacity: 0.7;
+  border-bottom: 3px solid rgb(207, 46, 58);
+}
+.divvalues {
+  height: 100vh;
+  background-color: rgba(245, 245, 246, 1);
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-content: center;
+  position: relative;
+}
+.valuecontents {
+  display: flex;
+  flex-direction: column;
+  padding-left: 13.1vw;
+  width: 32vw;
+}
+.valuecontents h3 {
+  font-size: 36px;
+  margin-top: 12vh;
+  color: #343b46;
+}
+.valuecontents p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #343b46;
+}
+.valuecontents h1 {
+  margin-top: 10vh;
+  font-size: 47px;
+  color: #343b46;
+}
+
+.valueimage {
+  display: flex;
+  padding-left: 50px;
+  margin-left: 10px;
+}
+.valueimage img {
+  /* height: 90%;
+  width: 90%; */
+}

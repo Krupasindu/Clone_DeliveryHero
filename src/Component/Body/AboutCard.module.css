@@ -1,0 +1,26 @@
+.aboutcardmaindiv {
+  background-color: white;
+  padding-right: 60px;
+  position: relative;
+  max-width: 28%;
+  max-height: 500px;
+  justify-self: start;
+  align-self: start;
+  padding-bottom: 40px;
+}
+.aboutcardmaindiv h2 {
+  font-weight: bold;
+  margin: 20px;
+  font-size: 45px;
+  color: #343b46;
+}
+.aboutcardmaindiv h3 {
+  font-weight: bold;
+  margin: 20px;
+  color: #343b46;
+}
+.aboutcardmaindiv p {
+  padding-bottom: 30px;
+  margin: 20px;
+  color: #343b46;
+}

@@ -1,0 +1,33 @@
+.btn1 {
+  height: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+  /* border-color: rgb(207, 46, 58); */
+  max-height: 48px;
+  border-radius: 40px;
+  background-color: rgb(207, 46, 58);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.btn2 {
+  height: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* min-width: 150px; */
+  /* margin-top: 10px; */
+  border: 2px solid rgb(207, 46, 58);
+  /* border-color: rgb(207, 46, 58); */
+  max-height: 48px;
+  border-radius: 40px;
+  background-color: white;
+  color: rgb(207, 46, 58);
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: none;
+  cursor: pointer;
+}
